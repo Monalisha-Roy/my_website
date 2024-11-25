@@ -12,7 +12,7 @@ const Footer: React.FC = () => (
                     <Link href="mailto:u22cse1042@cit.ac.in" className="hover:text-accent transition flex gap-1">
                         <MdMailOutline size={24} />u22cse1042@cit.ac.in
                     </Link>
-                    <Link href="https://drive.google.com/file/d/1as6Fq-6sM1m_8CNflA9dIk_3DCKRKsP4/view?usp=sharing"
+                    <Link href="https://drive.google.com/file/d/10nuG8KHeGA46t78gCpfPD-sxbqf0A57F/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-accent transition flex items-center gap-2 mt-2"><FaRegFileLines size={20}

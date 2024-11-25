@@ -38,7 +38,7 @@ export default function HomeHero() {
                         LinkedIn
                     </Link>
                     <Link
-                        href="https://drive.google.com/file/d/1as6Fq-6sM1m_8CNflA9dIk_3DCKRKsP4/view?usp=sharing"
+                        href="https://drive.google.com/file/d/10nuG8KHeGA46t78gCpfPD-sxbqf0A57F/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="duration-300 hover:scale-110 px-4 py-2 flex items-center justify-center gap-1 bg-transparent border-2 border-white hover:border-transparent text-white hover:text-black rounded hover:bg-primary transition"

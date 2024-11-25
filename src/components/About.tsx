@@ -7,7 +7,7 @@ export default function About() {
     return (
         <section
             id="about"
-            className="flex items-center justify-center w-full py-20 bg-black "
+            className="flex items-center justify-center w-full py-10 mb-10 bg-gray-700 md:bg-transparent rounded-lg bg-opacity-80 "
         >
             <div className="w-full px-4 lg:px-0 lg:w-10/12 flex flex-col-reverse md:flex-row items-center justify-center gap-8">
                 {/* Text Section */}
