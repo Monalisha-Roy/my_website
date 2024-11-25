@@ -5,26 +5,38 @@ import { FaGithub, FaRegFileLines } from "react-icons/fa6";
 
 
 const Footer: React.FC = () => (
-<footer className="bg-gray-700 bg-opacity-80 text-white py-4 w-full">
-    <div className="container mx-auto flex flex-col items-center justify-center">
-        <div className="flex justify-between w-full gap-6">
-            <div>
-                <Link href="mailto:your-email@example.com" className="hover:text-accent transition flex gap-1">
-                    <MdMailOutline size={24} /><p>u22cse1042@cit.ac.in</p>
+    <footer className="bg-gray-700 bg-opacity-80 text-white py-4 px-5  w-full">
+        <div className="container mx-auto flex flex-col items-center justify-center">
+            <div className="flex flex-col md:flex-row justify-between w-full gap-3 ">
+                <div className="">
+                    <Link href="mailto:u22cse1042@cit.ac.in" className="hover:text-accent transition flex gap-1">
+                        <MdMailOutline size={24} />u22cse1042@cit.ac.in
+                    </Link>
+                    <Link href="https://drive.google.com/file/d/1as6Fq-6sM1m_8CNflA9dIk_3DCKRKsP4/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-accent transition flex items-center gap-2 mt-2"><FaRegFileLines size={20}
+                        />
+                        Resume
+                    </Link>
+                </div>
+
+                <Link href="https://www.linkedin.com/in/monalisha-roy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-accent transition flex gap-1">
+                    <FaLinkedin size={24} /><p>Linkedin</p>
                 </Link>
-                <p className="hover:text-accent transition flex items-center gap-1"><FaRegFileLines size={20}/> Resume</p>
+                <Link href="https://github.com/Monalisha-Roy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-accent transition flex gap-1">
+                    <FaGithub size={24} /><p>Github</p>
+                </Link>
             </div>
-            
-            <Link href="https://www.linkedin.com/in/your-profile" className="hover:text-accent transition flex gap-1">
-                <FaLinkedin  size={24} /><p>Linkedin</p>
-            </Link>
-            <Link href="https://www.instagram.com/your-profile" className="hover:text-accent transition flex gap-1">
-                <FaGithub size={24} /><p>Github</p>
-            </Link>
+            {/* <p className="text-sm">&copy; {new Date().getFullYear()} Monalisha. All rights reserved.</p> */}
         </div>
-        {/* <p className="text-sm">&copy; {new Date().getFullYear()} Monalisha. All rights reserved.</p> */}
-    </div>
-</footer>
+    </footer>
 );
 
 export default Footer;

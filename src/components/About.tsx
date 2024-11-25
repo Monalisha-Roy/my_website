@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { MdMailOutline } from "react-icons/md";
 import { ImLinkedin } from "react-icons/im";
-import { FaRegFileLines } from "react-icons/fa6";
 
 export default function About() {
     return (
@@ -10,10 +9,10 @@ export default function About() {
             id="about"
             className="flex items-center justify-center w-full py-20 bg-black "
         >
-            <div className="w-10/12 flex flex-col md:flex-row items-center justify-center gap-8">
+            <div className="w-full px-4 lg:px-0 lg:w-10/12 flex flex-col-reverse md:flex-row items-center justify-center gap-8">
                 {/* Text Section */}
                 <div className="md:w-3/5 text-center md:text-left">
-                    <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-primary">
                         About Me
                     </h2>
                     <p className="text-white text-lg leading-relaxed">
@@ -31,14 +30,16 @@ export default function About() {
                     <div className="flex gap-2 md:gap-4 mt-4 flex-wrap justify-center md:justify-start">
                     <Link
                         href="mailto:u22cse1042@cit.ac.in"
-                        className="duration-300 hover:scale-110 px-4 py-2 flex items-center justify-center gap-1 bg-transparent border-2 border-white hover:border-transparent text-white hover:text-black rounded hover:bg-white transition"
+                        className="duration-300 hover:scale-110 px-4 py-2 flex items-center justify-center gap-1 bg-transparent border-2 border-white hover:border-transparent text-white hover:text-black rounded hover:bg-primary transition"
                     >
                         <MdMailOutline />
                         Mail me
                     </Link>
                     <Link
-                        href="www.linkedin.com/in/monalisha-roy"
-                        className="duration-300 hover:scale-110 px-4 py-2 flex items-center justify-center gap-1 bg-transparent border-2 border-white hover:border-transparent text-white hover:text-black rounded hover:bg-white transition"
+                        href="https://www.linkedin.com/in/monalisha-roy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="duration-300 hover:scale-110 px-4 py-2 flex items-center justify-center gap-1 bg-transparent border-2 border-white hover:border-transparent text-white hover:text-black rounded hover:bg-primary transition"
                     >
                         <ImLinkedin />
                         LinkedIn
