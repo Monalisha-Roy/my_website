@@ -51,7 +51,7 @@ export default function Navbar() {
       </nav>
 
       <div
-        className={`h-16 w-full px-5 flex items-center justify-between fixed top-0 z-30 ${isTop ? "bg-transparent" : "bg-background shadow-md"
+        className={`md:hidden h-16 w-full px-5 flex items-center justify-between fixed top-0 z-30 ${isTop ? "bg-transparent" : "bg-background shadow-md"
           }`}
       >
         <Image
@@ -59,7 +59,7 @@ export default function Navbar() {
           alt="logo"
           height={40}
           width={100}
-          className="object-contain"
+          className="md:hidden object-contain"
         />
         <button
           className="md:hidden text-primary z-40 focus:outline-none transition"
