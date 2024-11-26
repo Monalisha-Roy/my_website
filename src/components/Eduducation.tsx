@@ -20,8 +20,8 @@ const EducationCard = ({
 export default function Education() {
     return (
         <section className="flex items-center justify-center w-full py-10">
-            <div className="flex flex-col items-center justify-center p-6 md:p-10 lg:w-10/12">
-                <h2 className="text-2xl md:text-5xl font-bold mb-8 text-white">Education</h2>
+            <div className="flex flex-col items-center justify-center p-6 md:p-10 w-full lg:w-10/12">
+                <h2 className="text-3xl md:text-5xl font-bold mb-8 text-primary">Education</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                     {[
                         { title: "Class X", percentage: "Percentage: 90.6%", institution: "Jawahar Navodaya Vidyalaya, Kokrajhar", year: "Year: 2020" },

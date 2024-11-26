@@ -12,7 +12,7 @@ const skills = [
     },
     {
         title: "Programming Languages",
-        description: "C, Python, JavaScript/TypeScript, Java, SQL, MySQL, PostgreSQL, Shell Scripting.",
+        description: "C, Python, JavaScript/TypeScript, Java, SQL, MySQL, PostgreSQL, HTML/CSS, Shell Scripting.",
         icon: <FaCode className="font-semibold text-secondary" size={35} />
     },
     {
@@ -25,9 +25,9 @@ const skills = [
 export default function Skillset() {
     return (
         <section className="flex items-center justify-center w-full py-10">
-            <div className="w-9/12 flex flex-col lg:flex-row items-center justify-center">
+            <div className="w-11/12 md:w-9/12 flex flex-col lg:flex-row items-center justify-center">
                 <div className="w-full lg:w-2/6">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-8 text-white">Skill Set</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-8 text-primary">Skill Set</h2>
                 </div>
                 <div className="w-full lg:w-4/6 grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-4">
                     {skills.map((skill, index) => (

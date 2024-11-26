@@ -15,7 +15,7 @@ export default function About() {
                     <h2 className="text-3xl md:text-5xl font-bold mb-6 text-primary">
                         About Me
                     </h2>
-                    <p className="text-white text-lg leading-relaxed">
+                    <p className="text-white text-md md:text-lg leading-relaxed">
                         Hey there! 👋 <br />
                         I’m a tech enthusiast currently pursuing a B.Tech in Computer Science and
                         Engineering. I’m passionate about designing and developing innovative

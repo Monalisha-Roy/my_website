@@ -5,7 +5,7 @@ import { FaGithub, FaRegFileLines } from "react-icons/fa6";
 
 
 const Footer: React.FC = () => (
-    <footer className="bg-gray-700 bg-opacity-80 text-white py-4 px-5  w-full">
+    <footer className="bg-gray-700 bg-opacity-80 text-white py-4 px-5  w-full border-t border-white">
         <div className="container mx-auto flex flex-col items-center justify-center">
             <div className="flex flex-col md:flex-row justify-between w-full gap-3 ">
                 <div className="">
